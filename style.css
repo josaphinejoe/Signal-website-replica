@@ -1,0 +1,681 @@
+
+ /*navigation*/
+ .nav {
+    left: 200px;
+    display: flex;
+    text-align: right;
+    top: 0;
+    justify-content: space-between;
+
+  }
+  .nav .signal-logo {
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+
+  }
+  
+  .signal-logo {
+    width: 150px;
+    height: 50px;
+    vertical-align: middle;
+   
+    margin: 14px 0px 0px 20px;
+    
+}
+.navigation {
+    width: 100%;
+    max-height: 80px;
+    background-color: #fff;
+    color: hsl(0, 30%, 95%);
+    position: fixed;
+    z-index: 100;
+    padding-bottom: 18px;
+}
+
+  .header {
+    display: inline-flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    align-items: center;
+    
+    
+  }
+  
+
+  
+
+  .header a {
+    color: rgb(14, 1, 1);
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    column-gap: 20px;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+    align-self: center;
+    margin-top:15px;
+    
+    
+
+  }
+/* main area */
+
+  .main {
+    color: #1b1b1b;
+    background-color: #fff;
+    list-style-type: none;
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    overflow-y:hidden;
+    
+  }
+  .main h1 {
+      margin:0%;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    color: #1b1b1b;
+    font: 60px Inter, sans-serif;
+    font-weight: 800;
+    line-height: 64px;
+    padding: 12px;
+}
+
+p.para1 {
+    font: 20px Inter, sans-serif;
+    
+    color: #1b1b1b;
+    line-height: 28px;
+    display: block;
+    font-weight: 300;
+    padding: 12px;
+}
+  
+h2 {
+    display: block;
+    font-size: 1.5em;
+    
+    font-weight: bold;
+}
+h3,blockquote {
+    font: 28px Inter, sans-serif;
+    font-weight: 800;
+    
+}
+h3 {
+    text-align: center;
+}
+.para {
+    font: 16px Inter, sans-serif;
+    text-align: center;
+}
+
+
+p {
+    display: block;
+    
+}
+/* speak-freely area */
+.bg-color-container {
+    background-color: #9dbbf8;
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-top: 25px;
+    
+    
+  }
+
+  .speak-freely {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    }
+    .button1 {
+        background-color: #fff;
+        border-color: #dbdbdb;
+        border-width: 1px;
+        color: #2C6BED;
+        cursor: pointer;
+        justify-content: center;
+        padding: 15px 20px;
+        text-align: center;
+        white-space: nowrap;
+        margin-left: 12px;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+        border: none;
+        border-radius: 8px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .speak-freely-text {
+        display:block;
+        align-self: center;
+        padding: 12px;
+        margin-left: 10px;
+        margin-top:0px;
+        
+    }
+    .speak-freely-text .para1 {
+        margin-bottom: 0%;
+        padding: 0px 0px 0px 12px;
+    }
+    .speak-freely-text p {
+        max-width: 533px;
+        flex-shrink: 1;
+        font-weight: lighter;
+        margin:0%
+
+    }
+    .speak-freely-img {
+        display:flex;
+        flex-shrink: 1;
+        
+    }
+
+ 
+    .screenshot2 {
+        margin-left:-32px;
+        position:absolute;
+        
+    }
+      .screenshot1{
+        margin: 111px -30px -58px 0px;
+        
+    }
+    .mobile-screenshots {
+        margin-top: 100px;
+        padding-top: 30px;
+        position: relative;
+        
+    
+    }
+    
+    .mobile-screenshots img {
+        transform: rotate(
+    22.5deg
+    );
+        
+    /* max-width: 513px; */
+        max-height: 720px;
+        flex-shrink: 1;
+        width: 300px;
+        
+    }
+
+
+/* testimonial area */
+.bg-container {
+    background-color: #ececec;
+    padding-top: 100px;
+}
+
+.quotes .testimonial {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+.testmonial-individual-item img {
+    
+    border-radius: 24px;
+    /* margin-top: 20px; */
+
+}
+
+.testimonial-innerbox {
+    
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+.testmonial-individual-item p {
+    margin: 28px 0px;
+    font-weight: 300;
+
+}
+.quotes .testmonial-outerbox {
+    display: flex;
+    flex:inline-flex;
+    justify-content: flex-start;
+    flex-wrap:wrap
+}
+.quotes blockquote {
+    max-width: 468px;
+    margin:0%;
+}
+
+
+.quotes img {
+    border-radius: 50px;
+
+}
+
+/* signal area*/
+.text {
+    text-align: center !important;
+}
+
+/* security area*/
+
+.security h2 {
+    font: 40px Inter,sans-serif;
+    padding: 12px;
+    font-weight: 800;
+  }
+
+  .security .security-outer {
+    display:flex;
+    flex-shrink: 1;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.text-right {
+
+    text-align: right;
+    
+    justify-content: flex-end;
+    transform: translate3d(0px, 0px, 0px);
+    display:flex;
+    color: rgba(0, 107, 120, 0.8) ;
+
+}
+.text-right img {
+    margin: 10px;
+    border-radius: 24px;
+    max-width: 650px;
+}
+
+
+.share-without-insecurity {
+   
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 20px;
+}
+.share-without-insecurity .para1 {
+    font-weight: 300;
+    max-width: 450px;
+}
+
+/* information area */
+
+.info .info-outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    
+  }
+  .info .bg-container {
+      padding-top:20px;
+  }
+
+  .cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    
+    }
+.box {
+        background-color: #fff;
+        border-radius: 16px;
+        color: #4a4a4a;
+        display: block;
+        padding: 50px;
+        margin:20px 20px 20px 20px;
+        max-width: 468px;
+        max-height: 586px;
+        text-align: center;
+        flex-shrink: 1;
+    }
+.box img {
+        max-width: 370px;
+        max-height: 370px;
+        border-radius: 24px;
+    }
+.box p {
+        /* height: 44px; */
+        font-weight: 300;
+    }
+
+
+/* no ads area */
+
+.no-ad-no-tracker {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap:wrap-reverse;
+    
+    }
+
+    .box-text {
+        padding: 20px 20px 20px 42px;
+        align-items: center;
+        
+        
+    }
+    .box-text h2 {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 44px;
+        margin-bottom: 32px; 
+        max-width: 350px;  
+        padding:12px;
+    }
+    /* .box-text p {
+        max-width: 350px;
+    } */
+    .box-img {
+        
+        max-width: 642px;
+        padding: 48px 24px;
+        align-items: center;
+        margin-right: 245px;
+        flex-shrink: 1;
+    }
+    .box-img img{
+        border-radius: 24px;
+        width:100%;
+        max-width: 680px;
+    }
+    .box-text p {
+        max-width: 350px;
+        font-weight: 300;
+    }
+    
+/* free for everyone */
+
+.free-for-every1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+        
+    }
+
+    .button2 {
+        background-color: #fff;
+        border-radius: 8px;
+        border: 2px solid #2c6bed;
+        color: #2c6bed;
+        font-size: 20px;
+        line-height: 28px;
+        max-height: 300px;
+        cursor: pointer;
+        justify-content: center;
+        padding:12px;
+        text-align: center;
+        white-space: nowrap;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+    }
+ .non-profit-img {
+        border-radius: 50%;
+        padding: 48px 24px;
+        align-items: center;
+        margin-left: 200px;
+        flex-shrink:1;
+    }
+.non-profit-img img {
+        border-radius: 24px;
+        width:100%;
+        max-width: 680px;
+    }
+    
+/* footer */
+.footer-outer {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+
+
+}
+.footer-col2 .footer-item {
+    padding-right:40px;
+}
+
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+.footer-section {
+    margin:0%;
+    padding: 0%;
+}
+
+
+.footer ul {
+    list-style-type: none !important;
+    padding: 0px;
+}
+
+.footer {
+
+    padding: 48px 24px 66px;
+    background-color: #3c3744 !important;
+    color:#fff;
+    margin:0%;
+  }
+
+.footer a {
+    text-decoration: none;
+    color: #e9e9e9;
+}
+
+.footer .footer-outer {
+    flex-wrap: wrap-reverse;
+}
+.footer .footer-col2 {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+.footer p {
+    max-width: 600px;
+}
+
+.footer-col1 {
+    color: #e9e9e9;
+    font: 16px Inter,sans-serif;
+    flex-shrink: 1;
+    padding: 12px;
+    text-align: left;
+    font-weight: lighter;
+}
+.footer .footer-item {
+    color: #e9e9e9;
+    font: 16px Inter,sans-serif;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 12px;
+    text-align: left;
+    font-weight: lighter;
+    margin:10px;
+
+}
+
+
+
+
+
+body {
+    color: #1b1b1b;
+    font-family: Inter, sans-serif;
+    overflow-x: hidden;
+}
+
+body, button {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+html,body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+  @media only screen and (max-width: 700px) {
+
+    
+     .main h1 {
+            margin-top: 12px;
+            font-size: 40px;
+        }
+    
+    
+    .bg-color-container {
+        padding-bottom: 0px;
+    }
+
+    .cards-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        }
+  }
+  @media only screen and (min-width: 1200px) {
+    .bg-color-container {
+        max-height: 750px;
+    }
+    .testmonial-individual-item img {
+        width: 89px;
+        height: 89px;
+        /* border-radius: 24px;
+        margin-top: 20px; */
+    }
+    .box p {
+        height: 44px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+      .screenshot2 {
+        width: 250px!important;
+      }
+      .screenshot1 {
+          margin: 67px -34px 2px -54px;
+          width: 250px !important;
+      }
+      .mobile-screenshots {
+        position: relative;
+        left:0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .speak-freely-text .para1 {
+        font-size:16px;
+    }
+      
+  }
+  @media only screen and (max-width: 700px) {
+   
+    .box-img{
+        margin-right: 20px;
+    }
+    .box {
+        padding:0px;
+        margin: 10px;
+    }
+    h3 {
+        margin-bottom:0%;
+    }
+    .non-profit-img{
+        margin-left: 1px;
+        margin-left: 10px;
+    }
+
+  }
+  @media only screen and (max-width: 700px) {
+    .footer .footer-col2 {
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+       
+        text-align: left;
+    
+    }
+    .footer-outer {
+        display:flex;
+        justify-content: flex-start;
+
+    }
+    .footer-col1{
+        padding: 0%;
+        margin: 0%;
+    }
+    .footer .footer-item {
+        color: #e9e9e9;
+        font: 16px Inter,sans-serif;
+        flex-grow: 1;
+        flex-shrink: 1;
+        padding: 0px;
+        text-align: left;
+        font-weight: lighter;
+        margin:0px;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 700px) {
+      .header {
+          display:none;
+      }
+      .navigation {
+          padding-bottom: 10px;
+      }
+      .signal-logo {
+          width:90px;
+          height:30px
+      }
+
+      .text-right img {
+        margin: 10px;
+        border-radius: 24px;
+        max-width: 350px;
+    }
+
+    .security h2 {
+        font: 28px Inter,sans-serif;
+        padding: 12px;
+        font-weight: 700;
+      }
+     
+    .quotes blockquote {
+        margin:0%;
+    }
+    .quotes p {
+        margin-left:0%;
+    }
+     
+  }
