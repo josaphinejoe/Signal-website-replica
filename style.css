@@ -289,9 +289,9 @@ p {
 .text-right {
 
     text-align: right;
-    
+    margin-right: 32px;
     justify-content: flex-end;
-    /* transform: translate3d(0px, 0px, 0px); */
+    
     display:flex;
     color: rgba(0, 107, 120, 0.8) ;
 
@@ -673,6 +673,9 @@ html,body {
         margin: 10px;
         border-radius: 24px;
         max-width: 350px;
+    }
+   .text-right {
+        margin-right:0px;
     }
 
     .security h2 {
