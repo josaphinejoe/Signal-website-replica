@@ -109,7 +109,7 @@ p.para1 {
 h2 {
     display: block;
     font-size: 1.5em;
-    
+    font: 40px Inter,sans-serif;
     font-weight: bold;
 }
 h3,blockquote {
@@ -278,7 +278,7 @@ p {
 
 /* signal area*/
 .text {
-    text-align: center !important;
+    text-align: center;
 }
 
 /* security area*/
@@ -389,7 +389,7 @@ p {
         
     }
     .box-text h2 {
-        font-size: 40px;
+        
         font-weight: 800;
         line-height: 44px;
         margin-bottom: 32px; 
@@ -486,14 +486,14 @@ ul {
 
 
 .footer ul {
-    list-style-type: none !important;
+    list-style-type: none;
     padding: 0px;
 }
 
 .footer {
 
     padding: 48px 24px 38px;
-    background-color: #3c3744 !important;
+    background-color: #3c3744;
     color:#fff;
     margin:0px;
   }
@@ -609,6 +609,9 @@ ul {
     .non-profit-img{
         
         margin-left: 10px;
+    }
+    h2 {
+        font-size:28px;
     }
 
   }
