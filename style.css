@@ -9,16 +9,16 @@ body {
  /*navigation*/
  .navigation {
     width: 100%;
-    max-height: 80px;
+    max-height: 5rem;
     background-color: #fff;
     color: hsl(0, 30%, 95%);
     position: fixed;
     z-index: 100;
-    padding-bottom: 18px;
+    padding-bottom: 1.1rem;
 }
 
  .nav {
-    left: 200px;
+    left: 12.5rem;
     display: flex;
     text-align: right;
     top: 0;
@@ -29,10 +29,10 @@ body {
     justify-content: flex-start;
     align-items: center;
     align-self: center;
-    width: 150px;
-    height: 50px;
+    width: 9.4rem;
+    height: 3.1rem;
     vertical-align: middle;
-    margin: 14px 0px 0px 20px;
+    margin: 0.9rem 0px 0px 1.3rem;
 
   }
   .header {
@@ -48,25 +48,51 @@ body {
     justify-content: flex-end;
     align-items: center;
     text-decoration: none;
-    column-gap: 20px;
-    line-height: 1.5;
-    padding: 0.5rem 0.75rem;
+    column-gap: 1.3rem;
+    padding: 0.5rem 0.8rem;
     align-self: center;
-    margin-top:15px;
-    font: 16px Inter,sans-serif;
+    margin-top:0.9rem;
+    font: 1rem Inter,sans-serif;
     font-weight:300;
 
   }
+  .iconify-inline{
+    color:black;
+    width:20px;
+    height:20px;
+
+}
+
+  .insta .iconify-inline{
+    height:16px;
+    width:16px;
+}
+  .globe {
+    display:inline-flex;
+
+}
+.globe a {
+    padding:0px;
+    font-size: 1rem;
+}
+.globe .icon-text {
+    padding-bottom:0.3rem;
+}
+.globe .iconify {
+    height:16px;
+    width:16px;
+    color: black;
+}
   @media only screen and (max-width: 700px) {
     .header {
         display:none;
     }
     .navigation {
-        padding-bottom: 10px;
+        padding-bottom: 0.6rem;
     }
     .nav .signal-logo {
-        width:90px;
-        height:30px
+        width:5.6rem;
+        height:1.9rem;
     }
   }
 
@@ -85,80 +111,80 @@ body {
   .main h1 {
       margin:0px;
     color: #1b1b1b;
-    font: 60px Inter, sans-serif;
+    font: 3.8rem Inter, sans-serif;
     font-weight: 800;
-    line-height: 64px;
-    padding: 12px;
+    line-height: 4rem;
+    padding: 0.8rem;
 }
 
 @media only screen and (max-width: 700px) {
     .main h1 {
-           margin-top: 12px;
-           font-size: 40px;
+           margin-top: 0.8rem;
+           font-size: 2.5rem;
        }
 }
 
 p.para1 {
-    font: 20px Inter, sans-serif;  
+    font: 1.3rem Inter, sans-serif;  
     color: #1b1b1b;
-    line-height: 28px;
+    line-height: 1.8rem;
     display: block;
     font-weight: 300;
-    padding: 12px;
+    padding: 0.8rem;
 }
 @media only screen and (max-width: 700px) {
     p.para1 {
-        font-size: 16px;
+        font-size: 1rem;
 
     }
 }
   
 h2 {
     display: block;
-    font: 40px Inter,sans-serif;
+    font: 2.5rem Inter,sans-serif;
     font-weight: bold;
 }
 @media only screen and (max-width: 700px) {
     h2 {
-        font-size: 28px;
+        font-size: 1.8rem;
 
     }
 }
 
 h3 {
-    font: 28px Inter, sans-serif;
+    font: 1.8rem Inter, sans-serif;
     font-weight: 800;
     
 }
 
 blockquote {
-    font: 28px Inter, sans-serif;
+    font: 1.8rem Inter, sans-serif;
     font-weight: 800;
 }
 @media only screen and (max-width: 700px) {
     blockquote {
-        font-size: 20px;
-        
+        font: 1.3rem Inter, sans-serif;
+
     }
 }
 
 .para {
-    font: 16px Inter, sans-serif;
+    font: 1rem Inter, sans-serif;
     text-align: center;
 }
 
 
 p {
     display: block;
-    font:16px Inter,sans-serif;
+    font:1rem Inter,sans-serif;
 }
 /* speak-freely area */
 .bg-color-container {
     background-color: #9dbbf8;
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 1.9rem;
     text-align: left;
-    padding-top: 25px;
+    padding-top: 1.6rem;
     
     
   }
@@ -173,19 +199,19 @@ p {
 .speak-freely-text {
     display:block;
     align-self: center;
-    padding: 12px;
-    margin-left: 13px;
+    padding: 0.75rem;
+    margin-left: 0.81rem;
     margin-top:0px;
         
 }
     .speak-freely-text .para1 {
         margin-bottom: 0px;
-        padding: 0px 0px 13px 15px;
+        padding: 0px 0px 0.81rem 0.94rem;
         font-weight: 300;
     }
 
     .speak-freely-text p {
-        max-width: 533px;
+        max-width: 33.3rem;
         flex-shrink: 1;
         margin:0px;
 
@@ -193,14 +219,14 @@ p {
     .button1 {
         background-color: #fff;
         color: #2C6BED;
-        padding: 15px 20px;
+        padding: 0.9rem 1.3rem;
         text-align: center;
-        margin-left: 12px;
+        margin-left: 0.8rem;
         font-family: "system-ui", -apple-system, "Segoe UI", Roboto,Ubuntu, Arial, sans-serif;
         font-weight: 600;
         text-decoration: none;
-        border-radius: 8px;
-        font-size: 20px;
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
         
     }
     .speak-freely-img {
@@ -209,8 +235,8 @@ p {
         
     }
     .mobile-screenshots {
-        margin-top: 90px;
-        padding-top: 3px;
+        margin-top: 5.6rem;
+        padding-top: 0.2rem;
         position: relative;
         
     
@@ -219,17 +245,17 @@ p {
         transform: rotate(
     22.5deg
     );
-        max-height: 720px;
+        max-height: 45rem;
         flex-shrink: 1;
         width: 300px;
         
     }
     .screenshot1{
-        margin: 90px -30px -63px 0px;
+        margin: 5.6rem -1.9rem -3.9rem 0px;
         
     }
     .screenshot2 {
-        margin-left:-32px;
+        margin-left:-2rem;
         position:absolute;
         
     }
@@ -239,7 +265,7 @@ p {
             padding-bottom: 0px;
         }
         .speak-freely-text .para1 {
-            font-size:16px;
+            font-size:1rem;
         }
         .speak-freely-text {
             margin:0px;
@@ -265,14 +291,14 @@ p {
     }
     @media only screen and (min-width: 1200px) {
         .bg-color-container {
-            max-height: 750px;
+            max-height: 46.9rem;
         }
     }
 
 /* testimonial area */
 .bg-container {
     background-color: #ececec;
-    padding-top: 100px;
+    padding-top: 6.3rem;
 }
 
 .quotes .testimonial {
@@ -280,8 +306,8 @@ p {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 25px;
-    margin-right:25px;
+    margin-left: 1.6rem;
+    margin-right:1.6rem;
 }
 .quotes .testmonial-outerbox {
     display: flex;
@@ -292,7 +318,7 @@ p {
 
 .testmonial-individual-item img {
     
-    border-radius: 24px;
+    border-radius: 1.5rem;
     
 
 }
@@ -307,19 +333,19 @@ p {
 }
 
 .testmonial-individual-item p {
-    margin: 28px 0px;
+    margin: 1.8rem 0px;
     font-weight: 300;
 
 }
 
 .quotes blockquote {
-    max-width: 468px;
+    max-width: 29.3rem;
     margin:0px;
 }
 
 
 .quotes img {
-    border-radius: 50px;
+    border-radius: 50%;
 
 }
 
@@ -359,24 +385,24 @@ p {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
-    padding: 30px;
+    padding: 1.9rem;
 }
 .security h2 {
-    font: 40px Inter,sans-serif;
-    padding: 12px;
+    font: 2.5rem Inter,sans-serif;
+    padding: 0.8rem;
     font-weight: 800;
-    max-width:430px;
+    max-width:26.9rem;
   }
 
 .share-without-insecurity .para1 {
     font-weight: 349;
-    max-width: 409px;
+    max-width: 25.6rem;
 }
 
 .security-img {
 
     text-align: right;
-    margin-right: 32px;
+    margin-right: 2rem;
     justify-content: flex-end;
     
     display:flex;
@@ -384,19 +410,19 @@ p {
 
 }
 .security-img img {
-    margin: 10px;
-    border-radius: 24px;
-    max-width: 650px;
+    margin: 0.6rem;
+    border-radius: 1.5rem;
+    max-width: 40.6rem;
 }
 @media only screen and (max-width: 700px) {
     .share-without-insecurity {
-        padding: 20px;
+        padding: 1.3rem;
 
     }
 
     .security h2 {
-        font: 28px Inter,sans-serif;
-        padding: 12px;
+        font: 1.8rem Inter,sans-serif;
+        padding: 0.8rem;
         font-weight: 700;
         margin-top: 0px;
       }
@@ -406,9 +432,9 @@ p {
   
 
     .security-img img {
-      margin: 10px;
-      border-radius: 24px;
-      max-width: 350px;
+      margin: 0.6rem;
+      border-radius: 1.5rem;
+      max-width: 21.9rem;
     }
   
 }
@@ -416,8 +442,8 @@ p {
 
 /* information area */
 .info .bg-container {
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
 }
 
 
@@ -434,18 +460,18 @@ p {
     flex-direction: row;
     justify-content: stretch;
     flex-wrap: wrap;
-    margin:0px 35px;
+    margin:0px 2.2rem;
     
     }
 .box {
         background-color: #fff;
-        border-radius: 16px;
+        border-radius: 1rem;
         color: #4a4a4a;
         display: block;
-        padding: 80px 80px;
-        margin: 10px 10px;
-        max-width: 468px;
-        max-height: 586px;
+        padding: 5rem 5rem;
+        margin: 0.6rem 0.6rem;
+        max-width: 29.3rem;
+        max-height: 36.6rem;
         text-align: center;
         flex-shrink: 1;
     }
@@ -453,9 +479,9 @@ p {
     font-weight: 300;
 }
 .box img {
-        max-width: 370px;
-        max-height: 370px;
-        border-radius: 24px;
+        max-width: 23.1rem;
+        max-height: 23.1rem;
+        border-radius: 1.5rem;
     }
 .box h3 {
         text-align: center;
@@ -471,7 +497,7 @@ p {
         }
     .box {
         padding:0px;
-        margin: 10px;
+        margin: 0.6rem;
     }
     h3 {
         margin-bottom:0px;
@@ -481,7 +507,7 @@ p {
 @media only screen and (min-width: 1200px) {
  
     .box p {
-        height: 44px;
+        height: 2.8rem;
     }
 }
 
@@ -496,7 +522,7 @@ p {
     }
 
     .box-text {
-        padding: 20px 20px 20px 42px;
+        padding: 1.3rem 1.3rem 1.3rem 2.6rem;
         align-items: center;
         
         
@@ -504,34 +530,34 @@ p {
     .box-text h2 {
         
         font-weight: 800;
-        line-height: 44px;
-        margin-bottom: 32px; 
-        max-width: 390px;  
-        padding:12px;
+        line-height: 2.8rem;
+        margin-bottom: 2rem; 
+        max-width: 24.4rem;  
+        padding:0.8rem;
     }
     
     .box-img {
         
-        max-width: 642px;
-        padding: 48px 24px;
+        max-width: 40.1rem;
+        padding: 3rem 1.5rem;
         align-items: center;
-        margin-right: 245px;
+        margin-right: 15.3rem;
         flex-shrink: 1;
     }
     .box-img img{
-        border-radius: 24px;
+        border-radius: 1.5rem;
         width:100%;
-        max-width: 680px;
+        max-width: 42.5rem;
     }
     .box-text p {
-        max-width: 395px;
+        max-width: 24.7rem;
         font-weight: 300;
     }
     @media only screen and (max-width: 700px) {
    
         .box-img{
-            margin-right: 20px;
-            padding: 12px 12px;
+            margin-right: 1.3rem;
+            padding: 0.8rem 0.8rem;
         }
         .box-text h2 {
             margin:0px;
@@ -549,18 +575,18 @@ p {
     }
 .non-profit-img {
         
-    padding: 48px 24px;
+    padding: 3rem 1.5rem;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 12.5rem;
     flex-shrink:1;
 }
 .non-profit-img img {
-        border-radius: 24px;
+        border-radius: 1.5rem;
         width:100%;
-        max-width: 680px;
+        max-width: 42.5rem;
 }
 .free-for-every1 .box-text {
-    padding: 20px 20px 20px 0px;
+    padding: 1.3rem 1.3rem 1.3rem 0px;
     align-items: center;
         
         
@@ -568,12 +594,12 @@ p {
 
     .button2 {
         background-color: #fff;
-        border-radius: 8px;
-        border: 2px solid #2c6bed;
+        border-radius: 0.5rem;
+        border: 0.1rem solid #2c6bed;
         color: #2c6bed;
-        font-size: 20px;
-        max-height: 300px;
-        padding:12px;
+        font-size: 1.3rem;
+        max-height: 18.8rem;
+        padding:0.8rem;
         text-align: center;
         font-family: "system-ui", -apple-system, "Segoe UI", Roboto,Ubuntu, Arial, sans-serif;
         font-weight: 600;
@@ -581,12 +607,12 @@ p {
     }
     @media only screen and (max-width: 700px) {
         .non-profit-img{
-            padding: 12px 12px;
-            margin-left: 10px;
+            padding: 0.8rem 0.8rem;
+            margin-left: 0.6rem;
         }
 
         .free-for-every1 .box-text {
-            padding: 20px 20px 20px 20px;
+            padding: 1.3rem 1.3rem 1.3rem 1.3rem;
             align-items: center;
             
             
@@ -602,7 +628,7 @@ p {
     
 /* footer */
 .footer {
-    padding: 48px 24px 38px;
+    padding: 3rem 1.5rem 2.4rem;
     background-color: #3c3744;
     color:#fff;
     margin:0px;
@@ -617,22 +643,22 @@ flex-wrap: wrap-reverse;
 
 .footer-col1 {
     color: #e9e9e9;
-    font: 16px Inter,sans-serif;
+    font: 1rem Inter,sans-serif;
     flex-shrink: 1;
-    padding: 12px;
+    padding: 0.8rem;
     text-align: left;
     font-weight: lighter;
 }
 
 .footer .footer-item {
     color: #e9e9e9;
-    font: 16px Inter,sans-serif;
+    font: 1rem Inter,sans-serif;
     flex-grow: 1;
     flex-shrink: 1;
-    padding: 12px;
+    padding: 0.8rem;
     text-align: left;
     font-weight: lighter;
-    margin:10px;
+    margin:0.6rem;
 
 }
 .footer a {
@@ -649,7 +675,7 @@ flex-wrap: wrap-reverse;
 
 }
 .footer-col2 .footer-item {
-    padding-right:40px;
+    padding-right:2.5rem;
 }
 
 .footer ul {
