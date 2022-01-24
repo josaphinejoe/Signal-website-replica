@@ -312,7 +312,6 @@ p {
 }
 .quotes .testmonial-outerbox {
     display: flex;
-    flex:inline-flex;
     justify-content: flex-start;
     flex-wrap:wrap
 }
@@ -327,9 +326,6 @@ p {
 .testimonial-innerbox {
     
     display: block;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
     padding: 0.75rem;
 }
 
