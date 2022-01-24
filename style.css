@@ -73,11 +73,11 @@ body {
 
 }
 .globe a {
-    padding:0px;
+    padding:0.1rem;
     font-size: 1rem;
 }
 .globe .icon-text {
-    padding-bottom:0.3rem;
+    padding-bottom:0.4rem;
 }
 .globe .iconify {
     height:16px;
