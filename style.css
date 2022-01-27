@@ -1,0 +1,97 @@
+a,p,h1,h2,h3,blockquote {
+    font-family: Inter,sans-serif;
+}
+
+h1{
+    font-size: 3.75rem;
+}
+img {
+    border-radius: 24px;
+}
+.button {
+    border-radius:10px;
+}
+
+/* navbar */
+
+.navbar-item img {
+    max-height:3.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-item img {
+        max-height:2rem;
+    }
+}
+
+/* speak-freely */
+.hero {
+    background-color: #9dbbf8;
+}
+.mobile-screenshots {
+    margin-top:90px;
+    top: 2rem;
+    bottom:0.8rem;
+    position: relative;
+    
+
+}
+.mobile-screenshots img {
+    transform: rotate(
+22.5deg
+);
+    max-height: 45rem;
+    flex-shrink: 1;
+    width: 300px;
+    
+}
+.screenshot1{
+    margin: 5.4rem -2.9rem -0.9rem 0px;
+    
+}
+.screenshot2 {
+    margin-left:-1rem;
+    position:absolute;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .mobile-screenshots {
+                
+        left:0px;
+        margin-top: 0px;
+        padding-top: 0px;
+        
+        
+    }
+    .mobile-screenshots img {
+        width: 250px;
+    }
+    
+    .screenshot1 {
+        margin: 67px -34px 2px -54px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero {
+        overflow-x: hidden;
+
+    }
+}
+
+/* card info */
+
+.box {
+    padding:3rem;
+    border-radius: 24px;
+}
+
+/* footer */
+
+.footer a {
+    text-decoration: none;
+    color: #e9e9e9;
+}
