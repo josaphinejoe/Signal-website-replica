@@ -4,6 +4,10 @@ a,p,h1,h2,h3,blockquote
     color:#1b1b1b;
 }
 
+.space {
+    text-indent: 0.25rem;
+}
+
 .font_weight_bold 
 {
     font-weight: 900;
@@ -17,7 +21,6 @@ a,p,h1,h2,h3,blockquote
 {
     margin-bottom: 32px;
 }
-
 .section 
 {
     padding:48px 24px;
