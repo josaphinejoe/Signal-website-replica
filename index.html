@@ -15,52 +15,61 @@
 <body>
     <nav class="navbar is-white has-shadow is-fixed-top">
         <!-- logo / brand -->
-        <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="images/logo.png">
-          </a>
-          <a class="navbar-burger" id="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
+        <div class="container ml-4">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    <img src="images/logo.png">
+                </a>
+                <a class="navbar-burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+    
+            <div id="navbarBasicExample" class="navbar-menu">
+    
+    
+                <div class="navbar-end">
+                    <div class="navbar-item">
+    
+                        <a class="navbar-item">Get Signal</a>
+                        <a class="navbar-item">Support</a>
+                        <a class="navbar-item">Blog</a>
+                        <a class="navbar-item">Developers</a>
+                        <a class="navbar-item">Careers</a>
+                        <a class="navbar-item">Donate</a>
+                        <a class="navbar-item is-size-5-desktop"> <span class="iconify-inline"
+                                data-icon="mdi:twitter"></span></a>
+                        <a class="navbar-item " href=""><span class="iconify-inline"
+                                data-icon="logos:instagram-icon"></span></a>
+    
+                        <a class="navbar-item is-gapless"><span class="iconify" data-icon="fa-solid:globe"></span>
+                            EN <span class="iconify" data-icon="ep:arrow-down-bold"></span></a>
+    
+    
+                    </div>
+                </div>
+            </div>
+    
+           
         </div>
-      
-        <div class="navbar-menu" id="nav-links">
-          <!-- right links -->
-          <div class="navbar-end has-text-weight-light mr-5">
-            <a class="navbar-item">Get Signal</a>
-            <a class="navbar-item">Support</a>
-            <a class="navbar-item">Blog</a>
-            <a class="navbar-item">Developers</a>
-            <a class="navbar-item">Careers</a>
-            <a class="navbar-item">Donate</a>
-            <a class="navbar-item is-size-5-desktop"> <span class="iconify-inline" data-icon="mdi:twitter"></span></a>
-                <a class="navbar-item" href=""><span class="iconify-inline" data-icon="logos:instagram-icon"></span></a>
-                
-                    <a class="navbar-item is-gapless"><span class="iconify" data-icon="fa-solid:globe"></span>
-                    EN <span class="iconify" data-icon="ep:arrow-down-bold"></span></a>
-                
-            
-          </div>
-        </div>
-      </nav>
+    </nav>
       <!-- speak freely -->
-      <section class="hero is-large">
+      <section class="section_speak_freely">
        
           <div class="container">
-              <div class="columns is-vcentered">
-                  <div class="column is-two-fifths has-text-black mt-6 pl-5">
-                      <h1 class="is-size-2-mobile has-text-weight-bold mt-6">Speak Freely</h1>
-                      <p class="is-size-5-desktop">Say "hello" to a different messaging experience. An unexpected focus on
+              <div class="columns mt-6">
+                  <div class="column is-two-fifths has-text-black mt-6-desktop">
+                      <h1 class="is-size-2-mobile font_weight_bold">Speak Freely</h1>
+                      <p class="is-size-5-desktop has-text-weight-normal">Say "hello" to a different messaging experience. An unexpected focus on
                         privacy,combined with all of the features you expect.</p>
-                        <a class="button is-white mt-3 has-text-link has-text-weight-bold">Get Signal</a>
+                        <a class="button is-medium button_color mt-3 has-text-weight-bold">Get Signal</a>
                         
                   </div>
-                  <div class="column">
-                        <div class="mobile-screenshots is-flex-shrink-1 is-relative mgt-large">
+                  <div class="column mt-6-desktop p-1">
+                        <div class="mobile-screenshots is-relative">
                       
-                        
                             <img class="screenshot1" src="images/iphone.png">
                             <img class="screenshot2" src="images/screenhot2.png">
                         
@@ -71,32 +80,32 @@
         
       </section>
       <!-- testimonials -->
-    <section class="section has-background-white-ter py-6">
-        <div class="container py-6">
-            <div class="columns is-flex-wrap-wrap">
-                <div class="column is-half">
-                    <div class="columns is-justify-content-flex-start is-flex-wrap-wrap">
+    <section class="section_testimonials bg-color">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-half pb-6">
+                    <div class="columns">
                         <div class="column is-narrow">
                             <figure class="image is-96x96">
                                 <img class="is-rounded" src="images/snowden.jpeg" alt="snowden">
                             </figure>
                         </div>
                         <div class="column">
-                            <blockquote class="has-text-weight-bold is-size-4-desktop is-size-5-mobile"> "I use Signal every day."</blockquote>
+                            <blockquote class="font_weight_bold is-size-4-desktop is-size-5-mobile"> "I use Signal every day."</blockquote>
                             <p> <strong>Edward Snowden</strong> <br> Whistleblower and privacy advocate</p>
                         </div>
                     </div>
     
                 </div>
-                <div class="column is-half">
-                    <div class="columns is-justify-content-flex-start is-flex-wrap-wrap">
+                <div class="column is-half pb-6">
+                    <div class="columns">
                         <div class="column is-narrow">
                             <figure class="image is-96x96">
                                 <img class="is-rounded" src="images/dorsey.jpeg" alt="dorsey">
                             </figure>
                         </div>
                         <div class="column">
-                            <blockquote class="has-text-weight-bold is-size-4-desktop is-size-5-mobile"> "I trust Signal because it's well built, but more importantly, because
+                            <blockquote class="font_weight_bold is-size-5-mobile"> "I trust Signal because it's well built, but more importantly, because
                                 of how it's built: open source, peer reviewed, and funded entirely by grants and
                                 donations. A refreshing model for how critical services should be built."
                             </blockquote>
@@ -105,15 +114,15 @@
                     </div>
     
                 </div>
-                <div class="column is-half">
-                    <div class="columns is-justify-content-flex-start is-flex-wrap-wrap"> 
+                <div class="column is-half pb-6">
+                    <div class="columns"> 
                     <div class="column is-narrow">
                         <figure class="image is-96x96">
                             <img class="is-rounded" src="images/poitras.jpeg" alt="poitras">
                         </figure>
                     </div>
                     <div class="column">
-                        <blockquote class="has-text-weight-bold is-size-4-desktop is-size-5-mobile"> "Signal is the most scalable encryption tool we have. It is free and
+                        <blockquote class="font_weight_bold is-size-5-mobile"> "Signal is the most scalable encryption tool we have. It is free and
                             peer reviewed. I encourage people to use it everyday."
                         </blockquote>
                         <p> <strong>Laura Poitras</strong> <br> Oscar-winning filmmaker and journalist</p>
@@ -121,15 +130,15 @@
                     </div>
     
                 </div>
-                <div class="column is-half">
-                    <div class="columns is-justify-content-flex-start is-flex-wrap-wrap">  
+                <div class="column is-half pb-6">
+                    <div class="columns">  
                     <div class="column is-narrow">
                         <figure class="image is-96x96">
                             <img class="is-rounded" src="images/schneier.jpeg" alt="schneier">
                         </figure>
                     </div>
                     <div class="column">
-                        <blockquote class="has-text-weight-bold is-size-4-desktop is-size-5-mobile"> "I am regularly impressed with the thought and care put into both the
+                        <blockquote class="font_weight_bold is-size-5-mobile"> "I am regularly impressed with the thought and care put into both the
                             security and the usability of this app. It's my first choice for an encrypted
                             conversation."
                         </blockquote>
@@ -144,9 +153,9 @@
         </div>
     </section>
     <!-- why use signal -->
-    <section class="section">
+    <section class="section_signal">
         <div class="container has-text-centered">
-            <h2 class="is-size-2 has-text-weight-bold mb-3">Why use Signal?</h2>
+            <h2 class="is-size-2-desktop font_size_28 font_weight_bold mb-3">Why use Signal?</h2>
             <p class="is-size-5-desktop">Explore below to see why Signal is a simple, powerful, and secure messenger</p>
             
         </div>
@@ -154,65 +163,67 @@
 <!-- share without security -->
     <section class="section">
         <div class="container">
-            <div class="columns is-justify-content-space-between">
+            <div class="is-flex-desktop is-justify-content-space-between is-flex-direction-row-reverse">
+                <div class="column is-half">
+                    <figure class="is-1by1 animation">
+                        <img src="images/screenshot.png" alt="screenshot">
+                    </figure>
+                </div>
+                
                 <div class="column is-one-third">
-                    <h2 class="is-size-2 has-text-weight-bold">Share Without Insecurity</h2>
+                    <h2 class="is-size-2-desktop font_size_28 font_weight_bold heading_bottom_margin">Share Without Insecurity</h2>
                     <p class="is-size-5-desktop"> State-of-the-art end-to-end encryption (powered by the open source Signal
                     Protocol) keeps your conversations secure. We can't read your messages or listen to your
                     calls, and no one else can either. Privacy isn't an optional mode — it's just the way that
                     Signal works. Every message, every call, every time.</p>
                 </div>
-                <div class="column is-half ml-5">
-                    <figure class="is-1by1">
-                        <img src="images/screenshot.png" alt="screenshot">
-                    </figure>
-                </div>
+                
             </div>
         </div>
     </section>
 <!-- card informations -->
-    <section class="section has-background-white-ter">
+    <section class="section bg-color">
         <div class="container">
-            <div class="columns is-flex-wrap-wrap is-align-content-stretch">
-                <div class="column is-half is-flex-shrink-1 is-flex-grow-1">
-                    <div class="box has-text-centered is-flex-shrink-1 is-flex-grow-1">
-                        <figure class="image is-square">
+            <div class="columns is-multiline">
+                <div class="column is-half">
+                    <div class="box has-text-centered p-6">
+                        
                             <img src="images/media.png" alt="screenshot">
-                        </figure>
-                        <h3 class="is-size-3 has-text-weight-bold">Say Anything</h3>
+                       
+                        <h3 class="font_size_28 font_weight_bold">Say Anything</h3>
                         <p class="para">Share text, voice messages, photos, videos, GIFs and files for free.
                             Signal
                             uses your phone's data connection so you can avoid SMS and MMS fees.</p>
                     </div>
                 </div>
-                <div class="column is-half is-flex-shrink-1 is-flex-grow-1">
-                    <div class="box has-text-centered is-flex-shrink-1 is-flex-grow-1">
-                        <figure class="image is-square">
+                <div class="column is-half">
+                    <div class="box has-text-centered p-6">
+                        
                             <img src="images/calls.png" alt="screenshot">
-                        </figure>
-                        <h3 class="is-size-3 has-text-weight-bold">Speak Freely</h3>
+                        
+                        <h3 class="font_size_28 font_weight_bold">Speak Freely</h3>
                         <p class="para">Make crystal-clear voice and video calls to people who live across town,
                             or
                             across the ocean, with no long-distance charges.</p>
                     </div>
                 </div>
-                <div class="column is-half is-flex-shrink-1 is-flex-grow-1">
-                    <div class="box has-text-centered is-flex-shrink-1 is-flex-grow-1">
-                        <figure class="image is-square">
+                <div class="column is-half">
+                    <div class="box has-text-centered p-6">
+                        
                             <img src="images/stickers.png" alt="screenshot">
-                        </figure>
-                        <h3 class="is-size-3 has-text-weight-bold">Make Privacy Stick</h3>
+                        
+                        <h3 class="font_size_28 font_weight_bold">Make Privacy Stick</h3>
                         <p class="para">Add a new layer of expression to your conversations with encrypted
                             stickers.
                             You can also create and share your own sticker packs.</p>
                     </div>
                 </div>
-                <div class="column is-half is-flex-shrink-1 is-flex-grow-1">
-                    <div class="box has-text-centered is-flex-shrink-1 is-flex-grow-1">
-                        <figure class="image is-square">
+                <div class="column is-half">
+                    <div class="box has-text-centered p-6">
+                       
                             <img src="images/groups.png" alt="screenshot">
-                        </figure>
-                        <h3 class="is-size-3 has-text-weight-bold">Get Together with Groups</h3>
+                      
+                        <h3 class="font_size_28 font_weight_bold">Get Together with Groups</h3>
                         <p class="para">Group chats make it easy to stay connected to your family, friends, and
                             coworkers.</p>
                     </div>
@@ -225,14 +236,14 @@
 <!-- no ads no trackers -->
     <section class="section">
         <div class="container">
-            <div class="columns is-flex-direction-row-reverse is-justify-content-flex-end">
+            <div class="is-flex-desktop is-flex-direction-row-reverse is-justify-content-flex-end">
                 <div class="column is-half">
                     <figure class="image is-4by3">
                         <img src="images/no-ad.png" alt="screenshot">
                     </figure>
                 </div>
                 <div class="column is-one-third">
-                    <h2 class="is-size-2-desktop is-size-4-mobile has-text-weight-bold mb-5">No ads. No trackers. No kidding.</h2>
+                    <h2 class="is-size-2-desktop font_size_28 font_weight_bold heading_bottom_margin">No ads. No trackers. No kidding.</h2>
                 <p class="is-size-5-desktop"> There are no ads, no affiliate marketers, and no creepy tracking in Signal. So
                     focus on sharing the moments that matter with the people who matter to you.</p>
                 </div>
@@ -243,19 +254,19 @@
     <!-- non profit -->
     <section class="section">
         <div class="container">
-            <div class="columns is-justify-content-flex-end">
+            <div class="is-flex-desktop is-justify-content-flex-end">
                 <div class="column is-half">
                     <figure class="image is-4by3">
                         <img src="images/nonprofit.png" alt="screenshot">
                     </figure>
                 </div>
                 <div class="column is-one-third">
-                    <h2 class="is-size-2-desktop is-size-4-mobile has-text-weight-bold mb-5">Free for Everyone</h2>
+                    <h2 class="is-size-2-desktop font_size_28 font_weight_bold heading_bottom_margin">Free for Everyone</h2>
                 <p class="is-size-5-desktop"> Signal is an independent nonprofit. We're not tied to any major tech
                     companies,
                     and we can never be acquired by one either. Development is supported by grants and donations
                     from people like you. <br> <br>
-                    <button class="button is-link is-outlined has-text-weight-bold">Donate to Signal</button>
+                    <button class="button is-medium is-outlined outline_button has-text-weight-bold">Donate to Signal</button>
                 </p>
 
                 </div>
@@ -263,15 +274,15 @@
         </div>
     </section>
 <!-- footer -->
-    <footer class="footer has-background-grey-dark has-text-white ">
+    <footer class="footer has-text-white ">
         <div class="container">
-            <div class="columns is-flex-direction-row-reverse">
+            <div class="is-flex-desktop is-flex-direction-row-reverse">
                 
                 <div class="column">
                     <div class="columns is-justify-content-space-around">
-                        <div class="column">
+                        <div class="column is-size-6-mobile">
                             <ul>
-                                <li class="has-text-weight-bold"> Company</li><br>
+                                <li class="has-text-weight-bold mb-3"> Company</li>
                                 <li>
                                     <a href="">Donate</a>
                                 </li>
@@ -280,9 +291,9 @@
                                 <li> <a href="">Terms &amp; Privacy Policy</a></li>
                             </ul>
                         </div>
-                        <div class="column">
+                        <div class="column is-size-6-mobile">
                             <ul>
-                                <li class="has-text-weight-bold"> Download</li><br>
+                                <li class="has-text-weight-bold mb-3"> Download</li>
                                 <li> <a href="">Android</a></li>
                                 <li> <a href="">iPhone &amp; iPad</a></li>
                                 <li> <a href="">Windows</a></li>
@@ -290,25 +301,25 @@
                                 <li> <a href="">Linux</a></li>
                             </ul>
                         </div>
-                        <div class="column">
+                        <div class="column is-size-6-mobile">
                             <ul>
-                                <li class="has-text-weight-bold">Social</li><br>
+                                <li class="has-text-weight-bold mb-3">Social</li>
                                 <li> <a href="https://github.com/signalapp" target="_blank">GitHub</a></li>
                                 <li> <a href="https://twitter.com/signalapp" target="_blank">Twitter</a></li>
                                 <li> <a href="https://www.instagram.com/signal_app/" target="_blank">Instagram</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="column">
+                        <div class="column is-size-6-mobile">
                             <ul>
-                                <li class="has-text-weight-bold">Help</li><br>
+                                <li class="has-text-weight-bold mb-3">Help</li>
                                 <li> <a href="https://support.signal.org/">Support</a></li>
                                 <li> <a href="https://community.signalusers.org/">Community</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="column is-two-fifths">
+                <div class="column is-two-fifths is-size-6-mobile">
                     <p><span class="copyright">2013-2021 Signal, a 501c3 nonprofit.</span>
                     <br> Signal is a registered trademark in the United States and other countries. <br>
                     <br>
