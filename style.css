@@ -4,10 +4,7 @@ a,p,h1,h2,h3,blockquote
     color:#1b1b1b;
 }
 
-.space 
-{
-    text-indent: 0.25rem;
-}
+
 
 .font_weight_bold 
 {
@@ -26,13 +23,6 @@ a,p,h1,h2,h3,blockquote
 {
     padding:48px 24px;
 }
-
-blockquote 
-{
-    font-size: 1.75rem;
-    line-height: 1.1em;
-}
-
 
 
 img 
@@ -71,6 +61,12 @@ img
         max-height:2rem;
     }
 }
+
+.space_btw_text 
+{
+    text-indent: 0.25rem;
+}
+
 @media only screen and (min-width: 1020px)
 {
     .left_margin
@@ -193,6 +189,11 @@ h1
     }
 }
 
+blockquote 
+{
+    font-size: 1.75rem;
+    line-height: 1.1em;
+}
 /* why use signal */
 .section_signal 
 {
