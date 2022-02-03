@@ -70,6 +70,13 @@ img
         max-height:2rem;
     }
 }
+@media only screen and (min-width: 1020px)
+{
+    .left_margin
+    {
+        margin-left: -1.5rem;
+    }
+}
 
 /* speak-freely */
 .section_speak_freely 
