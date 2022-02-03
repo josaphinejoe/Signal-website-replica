@@ -4,7 +4,8 @@ a,p,h1,h2,h3,blockquote
     color:#1b1b1b;
 }
 
-.space {
+.space 
+{
     text-indent: 0.25rem;
 }
 
