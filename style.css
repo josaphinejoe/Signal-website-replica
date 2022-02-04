@@ -177,13 +177,13 @@ h1
 {
     background-color: #ececec;
 }
-.section_testimonials 
+.section-testimonials 
 {
     padding:9rem 1.5rem;
 }
 @media only screen and (max-width: 700px) 
 {
-    .section_testimonials 
+    .section-testimonials 
     {
         padding:3rem 1.5rem;
     }
