@@ -195,13 +195,13 @@ blockquote
     line-height: 1.1em;
 }
 /* why use signal */
-.section_signal 
+.section-signal 
 {
     padding:3rem 1.5rem;
 }
 @media only screen and (max-width: 700px) 
 {
-    .section_signal 
+    .section-signal 
     {
         padding-bottom: 0px;
     }
